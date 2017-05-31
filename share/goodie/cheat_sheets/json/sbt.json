@@ -1,0 +1,65 @@
+{
+    "id": "sbt_cheat_sheet",
+    "name": "sbt",
+    "description": "The simple build tool (sbt) and is a widely used interactive build tool for scala projects.",
+    "metadata": {
+        "sourceName": "sbt - documentation",
+        "sourceUrl": "http://www.scala-sbt.org/documentation.html"
+    },
+    "aliases": [
+    	"simple build tool",
+    	"sbt"
+    ],
+    "template_type": "terminal",
+    "section_order": [
+        "Commands"
+    ],
+    "sections": {
+        "Commands": [
+          {
+            "val": "Starts the interactive sbt console",
+            "key": "sbt"
+          },
+          {
+            "val": "Starts the scala interpreter (including classpath, dependencies and sources)",
+            "key": "sbt console"
+          },
+          {
+            "val": "Deletes all generated files from the ./target folder",
+            "key": "sbt clean"
+          },
+          {
+            "val": "Compiles the sources in scr/main/(scala|java) directories",
+            "key": "sbt compile"
+          },
+          {
+            "val": "Run the main class for the project",
+            "key": "sbt run <arg>*"
+          },
+          {
+            "val": "Compile and run all tests",
+            "key": "sbt test"
+          },
+          {
+            "val": "Run your test(s) frequently",
+            "key": "sbt (~)testOnly <yourPackage.(*|MyClass)>"
+          },
+          {
+            "val": "Display detailed help for the specified command. If no command is provided, displays brief descriptions of all commands",
+            "key": "sbt help <command>"
+          },
+          {
+            "val": "Reload the build definitions (./build.sbt, ./project/*.(scala|sbt))",
+            "key": "sbt reload"
+          },
+          {
+            "val": "Resolves dependencies according to the settings in the build file",
+            "key": "sbt update"
+          },
+          {
+            "val": "Creates a jar file containing the files in src/main/resources and the classes compiled from src/main/scala and src/main/java.",
+            "key": "sbt package"
+          }
+        ]
+    }
+}
