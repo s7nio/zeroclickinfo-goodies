@@ -17,20 +17,8 @@
     "sections": {
         "Commands": [
           {
-            "val": "Starts the interactive sbt console",
-            "key": "sbt"
-          },
-          {
             "val": "Starts the scala interpreter (REPL, including classpath, dependencies and sources)",
             "key": "sbt console"
-          },
-          {
-            "val": "Deletes all generated files from the ./target folder",
-            "key": "sbt clean"
-          },
-          {
-            "val": "Compiles the sources in scr/main/(scala|java) directories",
-            "key": "sbt compile"
           },
           {
             "val": "Run the main project class",
@@ -42,11 +30,7 @@
           },
           {
             "val": "Run tests frequently",
-            "key": "sbt testOnly <yourPackage.(*|MyClass)>"
-          },
-          {
-            "val": "Display detailed help for the specified command. If no command is provided, displays brief descriptions of all commands",
-            "key": "sbt help <command>"
+            "key": "sbt testOnly <your.package.(*|MyClass)>"
           },
           {
             "val": "Reload the build definitions (./build.sbt, ./project/*.(scala|sbt))",
@@ -57,8 +41,24 @@
             "key": "sbt update"
           },
           {
+            "val": "Deletes all generated files from the ./target folder",
+            "key": "sbt clean"
+          },
+          {
+            "val": "Compiles the sources in scr/main/(scala|java) directory",
+            "key": "sbt compile"
+          },
+          {
+            "val": "Display detailed help for the specified command. If no command is provided, displays brief descriptions of all commands",
+            "key": "sbt help <command>"
+          },
+          {
             "val": "Creates a jar file containing the files in src/main/resources and the classes compiled from src/main/(scala/java)",
             "key": "sbt package"
+          },
+          {
+            "val": "Starts the interactive sbt console",
+            "key": "sbt"
           }
         ]
     }
