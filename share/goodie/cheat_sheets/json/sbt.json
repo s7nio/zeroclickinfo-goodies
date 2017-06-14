@@ -1,7 +1,7 @@
 {
     "id": "sbt_cheat_sheet",
     "name": "sbt",
-    "description": "The simple build tool (sbt) and is a widely used interactive build tool for scala projects.",
+    "description": "The simple build tool (sbt) is a widely used interactive build tool for scala projects.",
     "metadata": {
         "sourceName": "sbt - documentation",
         "sourceUrl": "http://www.scala-sbt.org/documentation.html"
@@ -21,7 +21,7 @@
             "key": "sbt"
           },
           {
-            "val": "Starts the scala interpreter (including classpath, dependencies and sources)",
+            "val": "Starts the scala interpreter (REPL, including classpath, dependencies and sources)",
             "key": "sbt console"
           },
           {
@@ -33,7 +33,7 @@
             "key": "sbt compile"
           },
           {
-            "val": "Run the main class for the project",
+            "val": "Run the main project class",
             "key": "sbt run <arg>*"
           },
           {
@@ -41,8 +41,8 @@
             "key": "sbt test"
           },
           {
-            "val": "Run your test(s) frequently",
-            "key": "sbt (~)testOnly <yourPackage.(*|MyClass)>"
+            "val": "Run tests frequently",
+            "key": "sbt testOnly <yourPackage.(*|MyClass)>"
           },
           {
             "val": "Display detailed help for the specified command. If no command is provided, displays brief descriptions of all commands",
@@ -57,7 +57,7 @@
             "key": "sbt update"
           },
           {
-            "val": "Creates a jar file containing the files in src/main/resources and the classes compiled from src/main/scala and src/main/java.",
+            "val": "Creates a jar file containing the files in src/main/resources and the classes compiled from src/main/(scala/java)",
             "key": "sbt package"
           }
         ]
